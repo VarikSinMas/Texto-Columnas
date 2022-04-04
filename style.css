@@ -1,0 +1,21 @@
+html {background-color: blueviolet;
+    margin-left: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.title-1-span:hover {
+    color: rgb(251, 255, 0);
+}
+
+.parrafo {column-count: 3;
+    column-gap: 40px;
+    column-rule-style: dashed;
+    column-rule-width: 2px;
+    column-rule-color: red;
+}
+
+
+.parrafo::selection {
+    background: #fbdbe8;
+    color: #F55B99;
+}
